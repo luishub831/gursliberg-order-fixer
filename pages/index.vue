@@ -6,7 +6,7 @@
         This will generate a new order file from an existing order<br />and send it to live server.
       </p>
       <form @submit.prevent="handleGenerate">
-        <label class="block text-left text-sm font-medium text-gray-700 mb-1" for="orderId">
+        <label class="block text-left text-sm font-medium text-gray-700 mb-1" for="orderId" >
           Shopify ordernr
         </label>
         <input
